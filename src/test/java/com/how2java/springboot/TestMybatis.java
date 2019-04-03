@@ -14,7 +14,7 @@ public class TestMybatis {
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession session = sqlSessionFactory.openSession();
-        
+
         session.commit();
         session.close();
     }
