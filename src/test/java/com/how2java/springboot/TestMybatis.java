@@ -17,6 +17,5 @@ public class TestMybatis {
 
         session.commit();
         session.close();
-        //我呸
     }
 }
